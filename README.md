@@ -13,7 +13,7 @@ A aplicação recebe uma temperatura em Celsius e realiza a conversão para Fahr
 - Criar uma base de projetos técnicos organizados por linguagem
 
 ## 📁 Estrutura do Projeto
-
+```
 ConversorTemperatura/
 ├── src/ # Código-fonte principal
 ├── include/ # Arquivos de cabeçalho (futuros)
@@ -21,6 +21,7 @@ ConversorTemperatura/
 ├── README.md # Documentação do projeto
 ├── .gitignore # Arquivos e pastas ignorados pelo Git
 └── LICENSE # Licença MIT
+```
 
 
 ## ⚙️ Como compilar e executar
@@ -36,6 +37,7 @@ ConversorTemperatura/
 cd ProjetosCPP/ConversorTemperatura
 g++ src/main.cpp -o build/conversor
 ./build/conversor
+```
 
 🛣️ Roadmap de Evolução
 As próximas versões do projeto seguirão um plano incremental, com foco em refatoração, modularização e aplicação de conceitos avançados:
