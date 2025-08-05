@@ -1,0 +1,20 @@
+# Ignorar binários e builds
+/build/
+/*.exe
+/*.out
+/*.o
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos temporários de editor
+*.log
+*.tmp
+*.swp
+*.bak
+*.swo
+*~
+
+# Visual Studio Code
+.vscode/
