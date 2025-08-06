@@ -8,26 +8,26 @@ using namespace std;
 int main(int nNumberofArgs, char* pszArgs[])
 {
     //Insere a temperatura em Celsius
-    double celsius;
+    double dCelsius;
     cout << "Entre com a temperatura em Celsius: ";
-    cin >> celsius;
+    cin >> dCelsius;
    
     // Converte a temperatura para Fahrenheit usando a fórmula padrão
-    double fahrenheit;
-    fahrenheit = (celsius * 9) / 5 + 32;
+    double dFahrenheit;
+    dFahrenheit = (dCelsius * 9) / 5 + 32;
 
     //Calculo de Celsius para Kelvin
-    double kelvin;
-    kelvin = celsius + 273.15;
+    double dKelvin;
+    dKelvin = dCelsius + 273.15;
 
     cout << fixed << setprecision(2);
     cout << "----------------------------" << endl;
     cout << "A conversão par Fahrenheit é: ";
-    cout << fahrenheit << endl;
+    cout << dFahrenheit << endl;
     cout << "----------------------------" << endl;
 
     cout << "A conversão para Kelvin é: ";
-    cout << kelvin << endl;
+    cout << dKelvin << endl;
     cout << "----------------------------" << endl;
 
     cout << "Pressione qualquer tecla para continuar: ";
