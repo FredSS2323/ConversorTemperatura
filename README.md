@@ -39,41 +39,40 @@ g++ src/main.cpp -o build/conversor
 ./build/conversor
 ```
 
-🛣️ Roadmap de Evolução
+## 🛣️ Roadmap de Evolução
+
 As próximas versões do projeto seguirão um plano incremental, com foco em refatoração, modularização e aplicação de conceitos avançados:
 
-🔽 Versão 1.0 (Atual)
-Conversão de Celsius para Fahrenheit e Kelvin
+### 🔽 Versão 1.0
+- Conversão de Celsius para Fahrenheit e Kelvin
+- Interface simples via terminal
+- Formatação numérica com `iomanip`
 
-Interface simples via terminal
+### 🔽 Versão 1.1 (Atual)
+- Separação das conversões em condicionais dedicadas
+- Introdução de um menu interativo para múltiplas opções
+- Tratamento inicial para caso de valor inválido
 
-Formatação numérica com iomanip
+### 🔼 Versão 1.2
+- Suporte a mais escalas de temperatura (Rankine, Réaumur)
+- Tratamento de entradas inválidas com `cin.fail`
+- Estrutura de código separada em `.h` e `.cpp`
 
-🔼 Versão 1.1
-Separação das conversões em funções dedicadas
+### 🔼 Versão 1.3
+- Registro de histórico de conversões em arquivo `.txt`
+- Leitura e exibição do histórico sob demanda
 
-Introdução de um menu interativo para múltiplas opções
+### 🔼 Versão 1.4+
+- Interface gráfica (GUI) simples com Qt ou ImGui
+- Estrutura orientada a objetos
+- Inclusão de testes unitários (com Catch2 ou Google Test)
 
-🔼 Versão 1.2
-Suporte a mais escalas de temperatura (Rankine, Réaumur)
+---
 
-Tratamento de entradas inválidas
+📄 **Licença**  
+Distribuído sob a licença MIT. Veja o arquivo [`LICENSE`](LICENSE) para mais informações.
 
-Estrutura de código separada em .h e .cpp
+---
 
-🔼 Versão 1.3
-Registro de histórico de conversões em arquivo .txt
+**Desenvolvido por Frederico S 🚀**
 
-Leitura e exibição do histórico sob demanda
-
-🔼 Versão 1.4+
-Interface gráfica (GUI) simples com Qt ou ImGui
-
-Estrutura orientada a objetos
-
-Inclusão de testes unitários (com Catch2 ou Google Test)
-
-📄 Licença
-Distribuído sob a licença MIT. Veja o arquivo LICENSE para mais informações.
-
-Desenvolvido por Frederico S.
